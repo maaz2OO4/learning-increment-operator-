@@ -1,0 +1,16 @@
+
+#include<stdio.h>
+int main(){
+// for(int b=10;b<=50;b++){
+//  printf("%d\n",b)   ;
+int b=1;
+printf("%d\n",b++);
+//b=2
+printf("%d\n",++b);
+//b=3
+printf("%d\n",b++);
+//b=4
+printf("%d\n",b++);
+//5
+printf("%d",++b);
+}
